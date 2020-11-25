@@ -989,12 +989,13 @@
     js-sha3 "^0.8.0"
     lodash.isnumber "^3.0.3"
 
-"@wangleiddex/hydro-sdk-charts@0.1.6":
-  version "0.1.6"
-  resolved "https://registry.yarnpkg.com/@wangleiddex/hydro-sdk-charts/-/hydro-sdk-charts-0.1.6.tgz#cee47fc225f797e452241e2bc3fc037c6b96b944"
+"@wangleiddex/hydro-sdk-charts@0.1.38":
+  version "0.1.38"
+  resolved "https://registry.yarnpkg.com/@wangleiddex/hydro-sdk-charts/-/hydro-sdk-charts-0.1.38.tgz#6674ed6ef7db62e49c8ded50711da376bb5ff3a2"
+  integrity sha512-liZNoXx8cpipOesqLSdkTSx4bitYdBUB5TxemL/7i4NVKYutKP6Qm5yfs3uqeqh5cPM78zG6sf/SrGXCbAju9g==
   dependencies:
+    "@wlchn/react-stockcharts" "0.7.15"
     bignumber.js "5"
-    react-stockcharts "^0.7.8"
 
 "@webassemblyjs/ast@1.7.11":
   version "1.7.11"
@@ -1120,6 +1121,27 @@
     "@webassemblyjs/ast" "1.7.11"
     "@webassemblyjs/wast-parser" "1.7.11"
     "@xtuc/long" "4.2.1"
+
+"@wlchn/react-stockcharts@0.7.15":
+  version "0.7.15"
+  resolved "https://registry.yarnpkg.com/@wlchn/react-stockcharts/-/react-stockcharts-0.7.15.tgz#0f8ef9a0895da98cba156b76b01b577d76a88a1d"
+  integrity sha512-Fe/m5db7NKRJTOOU+jssqE9eW0PrEBcAHV0DAmGkQa45NXAHBMsdb5K7Z0CPyxWnOQJ0Bs+5cqZYipu5yT9SLA==
+  dependencies:
+    d3-array "^1.2.1"
+    d3-collection "^1.0.4"
+    d3-force "^1.1.0"
+    d3-format "^1.2.1"
+    d3-interpolate "^1.1.6"
+    d3-path "^1.0.5"
+    d3-scale "^1.0.7"
+    d3-selection "^1.2.0"
+    d3-shape "^1.2.0"
+    d3-time "^1.0.8"
+    d3-time-format "^2.1.1"
+    debug "^3.1.0"
+    lodash.flattendeep "^4.4.0"
+    prop-types "^15.6.0"
+    save-svg-as-png "^1.4.5"
 
 "@xtuc/ieee754@^1.2.0":
   version "1.2.0"
@@ -7546,26 +7568,6 @@ react-scripts@2.1.5:
     workbox-webpack-plugin "3.6.3"
   optionalDependencies:
     fsevents "1.2.4"
-
-react-stockcharts@^0.7.8:
-  version "0.7.8"
-  resolved "https://registry.yarnpkg.com/react-stockcharts/-/react-stockcharts-0.7.8.tgz#d127a113479835be1a0ef7c37e5b5808740b9803"
-  dependencies:
-    d3-array "^1.2.1"
-    d3-collection "^1.0.4"
-    d3-force "^1.1.0"
-    d3-format "^1.2.1"
-    d3-interpolate "^1.1.6"
-    d3-path "^1.0.5"
-    d3-scale "^1.0.7"
-    d3-selection "^1.2.0"
-    d3-shape "^1.2.0"
-    d3-time "^1.0.8"
-    d3-time-format "^2.1.1"
-    debug "^3.1.0"
-    lodash.flattendeep "^4.4.0"
-    prop-types "^15.6.0"
-    save-svg-as-png "^1.4.5"
 
 react@^16.8.3:
   version "16.8.4"
